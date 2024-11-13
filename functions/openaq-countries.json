@@ -1,0 +1,1891 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "license": "",
+    "website": "/",
+    "page": 1,
+    "limit": 100,
+    "found": ">100"
+  },
+  "results": [
+    {
+      "code": "AF",
+      "name": "Afghanistan",
+      "locations": 2,
+      "firstUpdated": "2019-10-20 22:30:00+00",
+      "lastUpdated": "2021-08-16 18:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 23640,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "DZ",
+      "name": "Algeria",
+      "locations": 1,
+      "firstUpdated": "2019-06-15 22:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 37851,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "AQ",
+      "name": "Antarctica",
+      "locations": 2,
+      "firstUpdated": "2018-11-30 11:00:00+00",
+      "lastUpdated": "2021-02-04 14:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 9180,
+      "cities": 0,
+      "sources": 2
+    },
+    {
+      "code": "AR",
+      "name": "Argentina",
+      "locations": 15,
+      "firstUpdated": "2016-01-01 03:00:00+00",
+      "lastUpdated": "2024-04-25 03:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 314127,
+      "cities": 1,
+      "sources": 6
+    },
+    {
+      "code": "AM",
+      "name": "Armenia",
+      "locations": 1,
+      "firstUpdated": "2022-11-14 08:00:00+00",
+      "lastUpdated": "2023-06-15 11:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 1284,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "AU",
+      "name": "Australia",
+      "locations": 240,
+      "firstUpdated": "2016-01-28 19:00:00+00",
+      "lastUpdated": "2024-04-24 13:54:11+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 13659651,
+      "cities": 54,
+      "sources": 10
+    },
+    {
+      "code": "AT",
+      "name": "Austria",
+      "locations": 372,
+      "firstUpdated": "2016-11-18 05:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 13148899,
+      "cities": 162,
+      "sources": 4
+    },
+    {
+      "code": "AZ",
+      "name": "Azerbaijan",
+      "locations": 1,
+      "firstUpdated": "2022-06-23 12:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 11994,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "BD",
+      "name": "Bangladesh",
+      "locations": 4,
+      "firstUpdated": "2016-03-10 22:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 137931,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "BE",
+      "name": "Belgium",
+      "locations": 171,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 4467230,
+      "cities": 76,
+      "sources": 6
+    },
+    {
+      "code": "BZ",
+      "name": "Belize",
+      "locations": 1,
+      "firstUpdated": "2023-03-19 20:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 7173,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "BA",
+      "name": "Bosnia and Herz.",
+      "locations": 47,
+      "firstUpdated": "2016-04-26 21:30:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 1352420,
+      "cities": 23,
+      "sources": 7
+    },
+    {
+      "code": "BR",
+      "name": "Brazil",
+      "locations": 75,
+      "firstUpdated": "2017-07-01 00:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "humidity",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pressure",
+        "so2",
+        "temperature",
+        "um003",
+        "um005",
+        "um010",
+        "um025",
+        "um050",
+        "um100",
+        "voc"
+      ],
+      "count": 3043272,
+      "cities": 39,
+      "sources": 5
+    },
+    {
+      "code": "BG",
+      "name": "Bulgaria",
+      "locations": 101,
+      "firstUpdated": "2020-04-20 18:00:00+00",
+      "lastUpdated": "2024-04-24 11:28:00+00",
+      "parameters": [
+        "co",
+        "humidity",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pm4",
+        "pressure",
+        "so2",
+        "temperature"
+      ],
+      "count": 116138494,
+      "cities": 2,
+      "sources": 2
+    },
+    {
+      "code": "CA",
+      "name": "Canada",
+      "locations": 336,
+      "firstUpdated": "2016-03-06 19:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 17619515,
+      "cities": 18,
+      "sources": 4
+    },
+    {
+      "code": "TD",
+      "name": "Chad",
+      "locations": 1,
+      "firstUpdated": "2020-08-02 20:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 28177,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "CL",
+      "name": "Chile",
+      "locations": 149,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2",
+        "temperature"
+      ],
+      "count": 10666680,
+      "cities": 61,
+      "sources": 2
+    },
+    {
+      "code": "CN",
+      "name": "China",
+      "locations": 1870,
+      "firstUpdated": "2016-01-01 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 170502256,
+      "cities": 18,
+      "sources": 19
+    },
+    {
+      "code": "CO",
+      "name": "Colombia",
+      "locations": 58,
+      "firstUpdated": "2016-03-17 15:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 2381777,
+      "cities": 10,
+      "sources": 4
+    },
+    {
+      "code": "CR",
+      "name": "Costa Rica",
+      "locations": 1,
+      "firstUpdated": "2019-10-28 18:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 32301,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "CI",
+      "name": "C�te d'Ivoire",
+      "locations": 1,
+      "firstUpdated": "2020-03-15 21:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 28918,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "HR",
+      "name": "Croatia",
+      "locations": 27,
+      "firstUpdated": "2016-11-17 22:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 1463424,
+      "cities": 16,
+      "sources": 3
+    },
+    {
+      "code": "CY",
+      "name": "Cyprus",
+      "locations": 11,
+      "firstUpdated": "2020-04-20 16:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 588378,
+      "cities": 11,
+      "sources": 2
+    },
+    {
+      "code": "CZ",
+      "name": "Czechia",
+      "locations": 123,
+      "firstUpdated": "2016-11-21 11:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 11568465,
+      "cities": 72,
+      "sources": 4
+    },
+    {
+      "code": "CD",
+      "name": "Dem. Rep. Congo",
+      "locations": 1,
+      "firstUpdated": "2022-06-16 16:00:00+00",
+      "lastUpdated": "2023-05-09 15:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 3746,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "DK",
+      "name": "Denmark",
+      "locations": 15,
+      "firstUpdated": "2016-11-21 11:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2",
+        "temperature"
+      ],
+      "count": 1029601,
+      "cities": 9,
+      "sources": 3
+    },
+    {
+      "code": "EC",
+      "name": "Ecuador",
+      "locations": 8,
+      "firstUpdated": "2020-12-29 05:00:00+00",
+      "lastUpdated": "2021-11-24 16:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 90547,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "EG",
+      "name": "Egypt",
+      "locations": 2,
+      "firstUpdated": "2022-06-20 18:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 10053,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "EE",
+      "name": "Estonia",
+      "locations": 7,
+      "firstUpdated": "2020-04-20 20:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 232164,
+      "cities": 5,
+      "sources": 1
+    },
+    {
+      "code": "ET",
+      "name": "Ethiopia",
+      "locations": 3,
+      "firstUpdated": "2016-08-18 22:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 112474,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "FI",
+      "name": "Finland",
+      "locations": 81,
+      "firstUpdated": "2016-12-10 19:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 4341874,
+      "cities": 32,
+      "sources": 2
+    },
+    {
+      "code": "FR",
+      "name": "France",
+      "locations": 789,
+      "firstUpdated": "2016-11-17 23:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "humidity",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pressure",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003",
+        "um005",
+        "um010",
+        "um025",
+        "um050",
+        "um100"
+      ],
+      "count": 45835641,
+      "cities": 419,
+      "sources": 8
+    },
+    {
+      "code": "GA",
+      "name": "Gabon",
+      "locations": 1,
+      "firstUpdated": "2021-10-06 12:00:00+00",
+      "lastUpdated": "2022-02-27 19:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 2828,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "GM",
+      "name": "Gambia",
+      "locations": 2,
+      "firstUpdated": "2022-10-20 00:13:59.939+00",
+      "lastUpdated": "2023-09-15 23:03:55.489+00",
+      "parameters": [
+        "no2",
+        "pm1",
+        "pm10",
+        "pm25",
+        "temperature"
+      ],
+      "count": 14652,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "DE",
+      "name": "Germany",
+      "locations": 507,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 22875581,
+      "cities": 291,
+      "sources": 5
+    },
+    {
+      "code": "GH",
+      "name": "Ghana",
+      "locations": 17,
+      "firstUpdated": "2020-05-01 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "no2",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 1197001,
+      "cities": 1,
+      "sources": 3
+    },
+    {
+      "code": "GR",
+      "name": "Greece",
+      "locations": 52,
+      "firstUpdated": "2020-04-20 18:00:00+00",
+      "lastUpdated": "2024-04-24 11:28:00+00",
+      "parameters": [
+        "co",
+        "humidity",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pm4",
+        "pressure",
+        "so2",
+        "temperature"
+      ],
+      "count": 6716804,
+      "cities": 8,
+      "sources": 3
+    },
+    {
+      "code": "GT",
+      "name": "Guatemala",
+      "locations": 2,
+      "firstUpdated": "2019-10-20 21:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "o3",
+        "pm10",
+        "pm25"
+      ],
+      "count": 92826,
+      "cities": 2,
+      "sources": 2
+    },
+    {
+      "code": "GN",
+      "name": "Guinea",
+      "locations": 1,
+      "firstUpdated": "2020-05-01 02:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 27585,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "HU",
+      "name": "Hungary",
+      "locations": 95,
+      "firstUpdated": "2016-12-12 14:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 5426397,
+      "cities": 64,
+      "sources": 3
+    },
+    {
+      "code": "IS",
+      "name": "Iceland",
+      "locations": 24,
+      "firstUpdated": "2020-02-28 01:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 766247,
+      "cities": 8,
+      "sources": 3
+    },
+    {
+      "code": "IN",
+      "name": "India",
+      "locations": 420,
+      "firstUpdated": "2016-01-30 00:30:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 42127919,
+      "cities": 6,
+      "sources": 10
+    },
+    {
+      "code": "ID",
+      "name": "Indonesia",
+      "locations": 11,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 192976,
+      "cities": 2,
+      "sources": 6
+    },
+    {
+      "code": "IQ",
+      "name": "Iraq",
+      "locations": 5,
+      "firstUpdated": "2019-03-10 16:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 69549,
+      "cities": 3,
+      "sources": 3
+    },
+    {
+      "code": "IE",
+      "name": "Ireland",
+      "locations": 45,
+      "firstUpdated": "2016-02-27 21:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 1622557,
+      "cities": 5,
+      "sources": 4
+    },
+    {
+      "code": "IL",
+      "name": "Israel",
+      "locations": 111,
+      "firstUpdated": "2016-01-01 01:00:00+00",
+      "lastUpdated": "2021-11-19 09:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm25",
+        "so2"
+      ],
+      "count": 19575369,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "IT",
+      "name": "Italy",
+      "locations": 742,
+      "firstUpdated": "2016-11-21 12:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 24579974,
+      "cities": 584,
+      "sources": 8
+    },
+    {
+      "code": "JP",
+      "name": "Japan",
+      "locations": 1535,
+      "firstUpdated": "2023-07-14 17:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "pm25",
+        "so2",
+        "temperature"
+      ],
+      "count": 33293915,
+      "cities": 1,
+      "sources": 3
+    },
+    {
+      "code": "JO",
+      "name": "Jordan",
+      "locations": 5,
+      "firstUpdated": "2017-08-10 23:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm25",
+        "so2"
+      ],
+      "count": 647110,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "KZ",
+      "name": "Kazakhstan",
+      "locations": 4,
+      "firstUpdated": "2018-07-27 16:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 52076,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "KE",
+      "name": "Kenya",
+      "locations": 6,
+      "firstUpdated": "2018-04-21 00:00:00+00",
+      "lastUpdated": "2024-04-24 01:59:34.348+00",
+      "parameters": [
+        "no2",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 97230,
+      "cities": 1,
+      "sources": 4
+    },
+    {
+      "code": "XK",
+      "name": "Kosovo",
+      "locations": 24,
+      "firstUpdated": "2016-04-08 20:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 568149,
+      "cities": 12,
+      "sources": 4
+    },
+    {
+      "code": "KW",
+      "name": "Kuwait",
+      "locations": 1,
+      "firstUpdated": "2017-02-17 21:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 54062,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "KG",
+      "name": "Kyrgyzstan",
+      "locations": 5,
+      "firstUpdated": "2019-03-08 20:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 90080,
+      "cities": 2,
+      "sources": 4
+    },
+    {
+      "code": "LA",
+      "name": "Laos",
+      "locations": 8,
+      "firstUpdated": "2021-04-29 19:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2",
+        "temperature"
+      ],
+      "count": 216550,
+      "cities": 4,
+      "sources": 3
+    },
+    {
+      "code": "LV",
+      "name": "Latvia",
+      "locations": 13,
+      "firstUpdated": "2017-09-22 10:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 400130,
+      "cities": 5,
+      "sources": 2
+    },
+    {
+      "code": "LT",
+      "name": "Lithuania",
+      "locations": 16,
+      "firstUpdated": "2017-09-21 23:00:00+00",
+      "lastUpdated": "2024-04-23 23:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 875742,
+      "cities": 13,
+      "sources": 1
+    },
+    {
+      "code": "LU",
+      "name": "Luxembourg",
+      "locations": 12,
+      "firstUpdated": "2017-09-22 10:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 854996,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "MK",
+      "name": "Macedonia",
+      "locations": 28,
+      "firstUpdated": "2016-12-10 20:00:00+00",
+      "lastUpdated": "2024-04-23 03:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 2891272,
+      "cities": 6,
+      "sources": 2
+    },
+    {
+      "code": "MG",
+      "name": "Madagascar",
+      "locations": 1,
+      "firstUpdated": "2020-12-22 06:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 21076,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "MY",
+      "name": "Malaysia",
+      "locations": 11,
+      "firstUpdated": "2016-04-05 09:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 104324,
+      "cities": 4,
+      "sources": 4
+    },
+    {
+      "code": "ML",
+      "name": "Mali",
+      "locations": 1,
+      "firstUpdated": "2020-03-16 05:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 24659,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "MX",
+      "name": "Mexico",
+      "locations": 235,
+      "firstUpdated": "2016-03-06 19:00:00+00",
+      "lastUpdated": "2024-04-24 12:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 10684485,
+      "cities": 112,
+      "sources": 4
+    },
+    {
+      "code": "MD",
+      "name": "Moldova",
+      "locations": 2,
+      "firstUpdated": "2020-04-20 19:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "no2",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 32907,
+      "cities": 2,
+      "sources": 2
+    },
+    {
+      "code": "MN",
+      "name": "Mongolia",
+      "locations": 44,
+      "firstUpdated": "2016-01-30 00:15:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 2358107,
+      "cities": 22,
+      "sources": 3
+    },
+    {
+      "code": "ME",
+      "name": "Montenegro",
+      "locations": 9,
+      "firstUpdated": "2022-03-24 14:00:00+00",
+      "lastUpdated": "2024-03-19 22:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 273080,
+      "cities": 7,
+      "sources": 1
+    },
+    {
+      "code": "MA",
+      "name": "Morocco",
+      "locations": 1,
+      "firstUpdated": "2024-04-04 10:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 2178,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "MZ",
+      "name": "Mozambique",
+      "locations": 1,
+      "firstUpdated": "2024-01-18 18:00:00+00",
+      "lastUpdated": "2024-01-22 16:00:00+00",
+      "parameters": [
+        "o3",
+        "pm25"
+      ],
+      "count": 137,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "MM",
+      "name": "Myanmar",
+      "locations": 4,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 10:30:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 311809,
+      "cities": 3,
+      "sources": 3
+    },
+    {
+      "code": "NP",
+      "name": "Nepal",
+      "locations": 3,
+      "firstUpdated": "2017-03-02 23:15:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 215849,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "NL",
+      "name": "Netherlands",
+      "locations": 96,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 12828182,
+      "cities": 49,
+      "sources": 4
+    },
+    {
+      "code": "NZ",
+      "name": "New Zealand",
+      "locations": 11,
+      "firstUpdated": "2023-03-31 15:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 73275,
+      "cities": 8,
+      "sources": 2
+    },
+    {
+      "code": "NG",
+      "name": "Nigeria",
+      "locations": 5,
+      "firstUpdated": "2019-04-26 08:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "temperature"
+      ],
+      "count": 100561,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "KP",
+      "name": "North Korea",
+      "locations": 4,
+      "firstUpdated": "2024-03-20 08:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 14313,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "NO",
+      "name": "Norway",
+      "locations": 352,
+      "firstUpdated": "2016-12-02 10:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "bc",
+        "co",
+        "co2",
+        "humidity",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pressure",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003",
+        "um005",
+        "um010",
+        "um025",
+        "um050",
+        "um100"
+      ],
+      "count": 35760893,
+      "cities": 28,
+      "sources": 4
+    },
+    {
+      "code": "PK",
+      "name": "Pakistan",
+      "locations": 7,
+      "firstUpdated": "2019-05-22 22:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "temperature"
+      ],
+      "count": 235361,
+      "cities": 5,
+      "sources": 6
+    },
+    {
+      "code": "PS",
+      "name": "Palestine",
+      "locations": 9,
+      "firstUpdated": "2017-08-10 23:00:00+00",
+      "lastUpdated": "2019-04-03 21:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "so2"
+      ],
+      "count": 1449100,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "PY",
+      "name": "Paraguay",
+      "locations": 1,
+      "firstUpdated": "2023-10-02 19:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 4239,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "PE",
+      "name": "Peru",
+      "locations": 46,
+      "firstUpdated": "2016-03-04 17:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 1636875,
+      "cities": 21,
+      "sources": 5
+    },
+    {
+      "code": "PH",
+      "name": "Philippines",
+      "locations": 3,
+      "firstUpdated": "2023-09-06 20:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "pm25",
+        "temperature"
+      ],
+      "count": 7041,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "PL",
+      "name": "Poland",
+      "locations": 330,
+      "firstUpdated": "2016-01-30 01:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "bc",
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 25226750,
+      "cities": 197,
+      "sources": 5
+    },
+    {
+      "code": "PT",
+      "name": "Portugal",
+      "locations": 70,
+      "firstUpdated": "2017-05-11 08:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 6681272,
+      "cities": 8,
+      "sources": 3
+    },
+    {
+      "code": "PR",
+      "name": "Puerto Rico",
+      "locations": 5,
+      "firstUpdated": "2016-05-04 11:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "o3",
+        "pm10",
+        "pm25"
+      ],
+      "count": 97362,
+      "cities": 3,
+      "sources": 1
+    },
+    {
+      "code": "QA",
+      "name": "Qatar",
+      "locations": 1,
+      "firstUpdated": "2022-04-11 14:00:00+00",
+      "lastUpdated": "2023-11-30 08:00:00+00",
+      "parameters": [
+        "o3",
+        "pm25"
+      ],
+      "count": 16513,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "RO",
+      "name": "Romania",
+      "locations": 316,
+      "firstUpdated": "2020-04-19 21:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 5062594,
+      "cities": 110,
+      "sources": 4
+    },
+    {
+      "code": "RU",
+      "name": "Russia",
+      "locations": 54,
+      "firstUpdated": "2016-11-21 11:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 555874,
+      "cities": 2,
+      "sources": 5
+    },
+    {
+      "code": "RW",
+      "name": "Rwanda",
+      "locations": 2,
+      "firstUpdated": "2020-12-28 22:45:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "pm10",
+        "pm25"
+      ],
+      "count": 125816,
+      "cities": 1,
+      "sources": 2
+    },
+    {
+      "code": "SA",
+      "name": "Saudi Arabia",
+      "locations": 5,
+      "firstUpdated": "2019-07-15 19:00:00+00",
+      "lastUpdated": "2024-04-24 09:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 20485,
+      "cities": 3,
+      "sources": 3
+    },
+    {
+      "code": "SN",
+      "name": "Senegal",
+      "locations": 1,
+      "firstUpdated": "2023-09-05 08:00:00+00",
+      "lastUpdated": "2024-04-23 21:00:00+00",
+      "parameters": [
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "temperature",
+        "um003"
+      ],
+      "count": 4874,
+      "cities": 0,
+      "sources": 1
+    },
+    {
+      "code": "RS",
+      "name": "Serbia",
+      "locations": 80,
+      "firstUpdated": "2017-09-22 09:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2",
+        "temperature"
+      ],
+      "count": 3021615,
+      "cities": 45,
+      "sources": 4
+    },
+    {
+      "code": "SK",
+      "name": "Slovakia",
+      "locations": 85,
+      "firstUpdated": "2016-11-18 05:00:00+00",
+      "lastUpdated": "2024-04-24 10:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 5793777,
+      "cities": 58,
+      "sources": 3
+    },
+    {
+      "code": "SI",
+      "name": "Slovenia",
+      "locations": 39,
+      "firstUpdated": "2016-11-17 22:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 722888,
+      "cities": 26,
+      "sources": 3
+    },
+    {
+      "code": "ZA",
+      "name": "South Africa",
+      "locations": 198,
+      "firstUpdated": "2016-02-14 08:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 4635142,
+      "cities": 36,
+      "sources": 4
+    },
+    {
+      "code": "KR",
+      "name": "South Korea",
+      "locations": 685,
+      "firstUpdated": "2020-10-12 06:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 3255796,
+      "cities": 3,
+      "sources": 3
+    },
+    {
+      "code": "ES",
+      "name": "Spain",
+      "locations": 735,
+      "firstUpdated": "2016-11-17 23:00:00+00",
+      "lastUpdated": "2024-04-24 11:28:00+00",
+      "parameters": [
+        "co",
+        "humidity",
+        "no",
+        "no2",
+        "nox",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "pm4",
+        "pressure",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 43280041,
+      "cities": 349,
+      "sources": 7
+    },
+    {
+      "code": "LK",
+      "name": "Sri Lanka",
+      "locations": 1,
+      "firstUpdated": "2019-06-25 21:30:00+00",
+      "lastUpdated": "2024-04-24 09:30:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 21368,
+      "cities": 1,
+      "sources": 1
+    },
+    {
+      "code": "SD",
+      "name": "Sudan",
+      "locations": 3,
+      "firstUpdated": "2020-05-14 14:00:00+00",
+      "lastUpdated": "2023-05-17 13:00:00+00",
+      "parameters": [
+        "pm25"
+      ],
+      "count": 54546,
+      "cities": 2,
+      "sources": 3
+    },
+    {
+      "code": "SE",
+      "name": "Sweden",
+      "locations": 170,
+      "firstUpdated": "2016-12-02 11:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm10",
+        "pm25",
+        "so2"
+      ],
+      "count": 2381026,
+      "cities": 53,
+      "sources": 5
+    },
+    {
+      "code": "CH",
+      "name": "Switzerland",
+      "locations": 42,
+      "firstUpdated": "2016-11-21 12:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 3198746,
+      "cities": 13,
+      "sources": 3
+    },
+    {
+      "code": "TW",
+      "name": "Taiwan",
+      "locations": 91,
+      "firstUpdated": "2016-12-20 19:00:00+00",
+      "lastUpdated": "2024-04-24 11:00:00+00",
+      "parameters": [
+        "co",
+        "no2",
+        "o3",
+        "pm1",
+        "pm10",
+        "pm25",
+        "relativehumidity",
+        "so2",
+        "temperature",
+        "um003"
+      ],
+      "count": 8050739,
+      "cities": 17,
+      "sources": 2
+    }
+  ]
+}

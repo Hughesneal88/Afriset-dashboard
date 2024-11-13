@@ -1,0 +1,29 @@
+{
+  "name": "Afri-SET AQI Monitor",
+  "short_name": "AQM",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "theme_color": "#317EFB",
+  "background_color": "#317EFB",
+  "icons": [
+    {
+      "src": "/static/icons/icon.png",
+      "sizes": "144x144",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/static/icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

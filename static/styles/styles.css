@@ -1,0 +1,96 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+}
+/* .gradient {
+    /* background: rgb(249,249,249); 
+    background: linear-gradient(90deg, rgba(249,249,249,1) 0%, rgba(92,154,150,1) 50%, rgba(255,255,255,1) 100%); 
+} */
+/* 
+.gradient-bg {
+    background: rgb(249,249,249);
+    background: radial-gradient(circle, rgba(249,249,249,1) 0%, rgba(3,125,73,1) 49%, rgba(255,255,255,1) 100%); 
+} */
+.gradient-custom {
+    /* fallback for old browsers */
+    background-color: #d299c2;
+  
+    /* Chrome 10-25, Safari 5.1-6 */
+    background-color: -webkit-linear-gradient(to right, rgba(210,153,194,0.55), rgba(254,249,215,0.55));
+  
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: linear-gradient(to right, rgba(210,153,194,0.55), rgba(254,249,215,0.55))
+  }
+
+.swatch {
+  background-color: linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
+ }
+
+ #container_2 {
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+body.modal-open .background-container{
+    -webkit-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    filter: blur(4px);
+    filter: url("https://gist.githubusercontent.com/amitabhaghosh197/b7865b409e835b5a43b5/raw/1a255b551091924971e7dee8935fd38a7fdf7311/blur.svg#blur");
+    filter:progid:DXImageTransform.Microsoft.Blur(PixelRadius='4');
+}
+
+.date-range-form {
+    display: flex;
+    align-items: flex-end;
+    gap: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-group {
+    flex: 1;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.form-control {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.2s;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.infoDiv:hover {
+    background-color: #e6f0ee;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+

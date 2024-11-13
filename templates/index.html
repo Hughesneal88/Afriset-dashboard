@@ -1,0 +1,227 @@
+{% extends "base.html" %}
+{% block head %}     
+<script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    function cb(selection) {
+        $.getJSON({
+            url: "/callback", data: { 'data': selection }, success: function (result) {
+                Plotly.newPlot('chart', result, {staticPlot: true});;
+            }
+        });
+    }
+</script>
+<style>
+  .word-break{
+    word-break: break-all;
+  }
+
+body {
+  padding: 50px;
+}
+
+.Legend-colorBox {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-block;
+}
+
+.infoDiv {
+  background-color: #fbfbbc;
+}
+</style>
+
+</style>
+{% endblock %}
+{% block title %} AFRI-SET/EPA Air Quality Dashboard {% endblock %}
+{% block content %}
+<!-- <link rel="preload" href="https://airvisual.com/images/{{data[5]}}.png"> -->
+      <div class="container-fluid w-sm-100 px-4 py-1 align-items-center justify-content-center ">
+        <div class="row rows-cols-md-1 h-100 g-5 pb-5 pt-5 align-items-center justify-content-center background-container">
+          <div class="col-10 col-sm-10 col-md-5 col-lg-5 rounded p-3 pb-3 mx-auto" >
+            <div class="shadow card d-flex flex-column w-100 border border-primary align-items-center pt-2 infoDiv" style="border-radius: 15px 15px 15px 15px;" data-bs-toggle="modal" data-bs-target="#aqiModal"   style="cursor: pointer;"">
+              <div class="mt-0 border border-primary w-75 text-center pb-2 mx-auto" style="background-color:#bfb0fc; height: 30px;border-radius: 15px 15px 15px 15px;">
+                <b><small>{{city}} {{country}}</small></b>
+              </div>
+              <div  class="shadow-lg w-75 m-2" style="background-color:{{color}}; border-radius: 15px 15px 15px 15px">
+                <div class="mx-auto p-1 text-center">
+                  <p class="mx-auto mb-2 pt-2 px-auto" style="font-size:18px;font-family:Arial, Helvetica, sans-serif;"><small><bold>AQI</bold></small></p>
+                  <p class="display-1" style="font-family:Arial, Helvetica, sans-serif"><b>{{data[2]}}</b></p>
+                  <p class="display-3 text-justify" style="font-size:large; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;"><b>{{warning}}</b></p>
+                </div>
+              </div>
+              <small class="text-muted pb-2"><i style="font-size: small;"> {{data[3]}}</i></small>
+              <!-- <span class="fs-6 fw-bold display-7">null,&nbsp;Null</span><br /><hr />
+              <span class="fw-bolder fs-3">null &mu;g/m<sup>3</sup></span><br />
+              <small class="text-muted">null</small> -->
+            </div>
+          </div>
+          <div class="col-6 col-sm-8 col-md-5 rounded p-3 pb-3 mx-auto">
+              <div class="row justify-content-center mx-auto">
+                <div class="col-sm-8 col-md-8 col-lg-5 justify-content-center mx-3">
+                  <div id="pm2p5" class="shadow m-2 border border-primary p-2 mx-auto text-center infoDiv" data-bs-toggle="modal" data-bs-target="#pm25Modal" style="height:80%; border-radius: 20px 20px 20px 20px; cursor: pointer;">
+                    
+                    <div class="mt-0 border border-primary w-80 mx-auto text-center text-sm-center pb-4" style="background-color:#bfb0fc; height: 30px;border-radius: 15px 15px 15px 15px;">
+                      <p class="mx-auto h7-sm h7"><b><small>PM 2.5</small></b></p>
+                    </div>
+                    <p class="h3 pt-2">{{data[7]}}</p>
+                    <p><small class="text-muted">&mu;g/m<sup>3</sup></small></p>
+                  </div>
+                </div>
+              <div class="col-sm-8 col-md-8 col-lg-5 justify-content-center mx-3">
+                <div id="temp" class="shadow m-2 border border-primary p-2 mx-auto text-center text-sm-center infoDiv" style="height:80%; border-radius: 20px 20px 20px 20px;">
+                    
+                  <div class="mt-0 border border-primary w-80 mx-auto text-center text-sm-center pb-4" style="background-color:#bfb0fc; height: 30px;border-radius: 15px 15px 15px 15px;">
+                    <b class="h7-sm h7"><small>Temp</small></b>
+                  </div>
+                  <!-- <span class="mx-auto"><img src="https://airvisual.com/images/{{data[5]}}.png" style="height: 30px; width=30px;"></span> -->
+                  <p class="h3 pt-2">
+                    <small>{{data[4]}}</small>
+                  </p>
+                  <p><small class="text-muted"> &deg;C</small></p>
+                </div>
+                </div>        
+                <div class="col-sm-8 col-md-8 col-lg-5 justify-content-center mx-auto">
+                  <div id="weather" class="shadow m-2 border border-primary p-2 mx-auto text-center infoDiv" style="height:80%; border-radius: 20px 20px 20px 20px;">                
+                    <div class="mt-0 border border-primary w-80 mx-auto text-center pb-4" style="background-color:#bfb0fc; height: 30px;border-radius: 15px 15px 15px 15px;">
+                      <b class="h7-sm h7"><small>Humidity</small></b>
+                    </div>
+                    <!-- <span class="mx-auto"><img src="{{url_for('static', filename='images/ic-humidity-72-px_2.svg')}}" style="height: 30px; width:30px;"></span> -->
+                    <p class="h3 pt-2">
+                      <small>{{data[6]}}</small>
+                    </p>
+                    <p><small class="text-muted">%</small></p>
+              </div>
+            </div>
+          </div>
+              <!-- Modal -->
+              <!-- <div class="modal fade" id="moreInfo" tabindex="-1" aria-labelledby="moreInfolabel" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                  <div class="modal-content">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                    <div class="modal-body">
+                      <div><p>Area for the plot</p></div>
+                      <div></div>
+                    </div>
+                  </div>
+                </div>
+              </div> -->
+            <!-- </div> -->
+          <!-- </div> -->
+           <!-- <div class="row rows-cols-md-1 rows-md-1 g-5"> -->
+        </div>
+      </div>
+      <div class="modal fade justify-content-center"  tabindex="-1" aria-hidden="true" id="Legend">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content mx-auto border border-primary"  style="border-radius: 15px 15px 15px 15px;">
+              <div class="modal-body mx-auto" style="background-color: #fcfffe;">
+                <ul class="list-group list-group-flush pt-3">
+                  <span class="mx-auto pb-2">
+                    <p class="h3 text-center mx-auto">Legend <img class="rotate-sm-30" src="{{url_for('static', filename='images/light-bulb-color-icon.svg')}}" style="height: 30px; width: 30px;"><button type="button" class="btn-close d-md-none p-3" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                  </span>
+                  <!-- <div data-bs-toggle="collapse" data-bs-target="#tip"class=" list-group-item list-group-item-action center-text"> -->
+                    {% for col in legendcol %}
+                        {% set outer_loop = loop %}
+                        {% for val in legendval %}
+                          {% set inner_loop = loop %}
+                          {% for ext in legendextra %}
+                             {% if outer_loop.index0 == loop.index0 %}
+                                {% if inner_loop.index0 == loop.index0 %}
+                                  <div class="text-center text-sm-center">
+                                    <div class="row text-justify text-sm-justify border-primary border-bottom mx-auto">
+                                    <div class="col pt-2"><span class="Legend-colorBox" style="margin: 0% 5% 0%; background-color: {{col}};"></span></div><div class="colmd-6 pt-2 d-l-none"><p class="h5 h5-sm text-center text-sm-center mx-auto">{{ val }}</p></div><div class="col6 pt-2"><p class="h6 h6-sm text-justify text-sm-justify"><b> {{ ext }}</b></p></div>
+                                    </div>
+                                  
+                                  </div>
+                                {% endif %}
+                              {% endif %}
+                            {% endfor %}
+                        {% endfor %}
+                    {% endfor %}
+                  <!-- </div> -->
+                  <!-- <div class="collapse" id="tip">
+                    <div class="row justify-content-center mx-auto border border-primary mx-auto" style="border-radius: 15px 15px 15px 15px;">
+                      <h4 class="align-items-center">{{tips[1]}}</h4>
+                    </div>
+                  </div> -->
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+        </div>
+      </div>
+      <div class="modal fade justify-content-center"  tabindex="-1" aria-hidden="true" id="aqiModal">
+        <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+          <div class="modal-content mx-auto border border-primary"  style="border-radius: 15px 15px 15px 15px;">
+              <div class="modal-body mx-auto" style="background-color: #fcfffe;">
+                <ul class="list-group list-group-flush pt-3">
+                  <span class="mx-auto">
+                    <p class="h3 text-center mx-auto">AQI Information <img class="rotate-sm-30" src="{{url_for('static', filename='images/light-bulb-color-icon.svg')}}" style="height: 30px; width: 30px;"><button type="button" class="btn-close d-md-none p-3" data-bs-dismiss="modal" aria-label="Close"></button></p>
+                  </span>
+                  <!-- <div data-bs-toggle="collapse" data-bs-target="#tip"class=" list-group-item list-group-item-action center-text"> -->
+                    <div class="text-center text-sm-center">
+                      <div class="row text-justify text-sm-justify mx-auto"> 
+                      <div class="col pt-2"><span class="Legend-colorBox" style="margin: 0% 5% 0%; background-color: {{color}};"></span></div>
+                      <div class="colmd-6 d-l-none"><p class="h5 h5-sm text-center text-sm-center mx-auto">({{ aqi_description[3] }})</p></div>
+                      <!-- <div class="colmd-6 pt-2 d-l-none"><p class="h5 h5-sm text-center text-sm-center mx-auto">{{ aqi_value }}</p></div> -->
+                      <div class="col6 pt-2"><p class="h4 h4-sm text-justify text-sm-justify"><b> {{ aqi_description[0] }}</b></p></div>
+                      <div class="col6 pt-2"><small class="h5 h5-sm text-justify text-sm-justify"> {{ aqi_description[1] }}</small></div>
+                      <div class="col6 pt-2"><small class="h5 h5-sm text-justify text-sm-justify"> <i>{{ aqi_description[2] }}</i></small></div>
+                      
+                      <div class="col-12 w-100 col-sm-10 col-md-5 col-lg-5 rounded p-3 pb-3">
+                        <div class="shadow card d-flex flex-column w-100 border border-primary align-items-center pt-2" style="border-radius: 15px;">
+                          <div class="mt-0 border border-primary w-75 text-center pb-2 mx-auto" style="background-color:#bfb0fc; height: 30px; border-radius: 15px;">
+                            <b><small>Forecasted AQI (Next 5 Hours)</small></b>
+                          </div>
+                          <div class="w-100 m-1 px-2 d-flex flex-column flex-md-row text-center align-items-center justify-content-between" style="background-color: #fcfffe; border-radius: 15px;">
+                            {% if forecast and 'AQI' in forecast and 'PM25' in forecast %}
+                            {% for time, aqi_value in forecast['AQI'].items() %}
+                            <div class="m-2 w-100"> <!-- Added w-100 for full width on mobile -->
+                              <div id="pm2p5" class="shadow m-2 col-12 text-center border border-primary p-2 infoDiv" style="height:80%; border-radius: 20px; cursor: pointer;">
+                                
+                                <div class="mt-0 border border-primary w-100 mx-auto text-center text-sm-center pb-4" style="background-color:#bfb0fc; height: 30px; border-radius: 15px;">
+                                  <p class="mx-auto h7-sm h7"><b><small>AQI</small></b></p>
+                                </div>
+                                <p class="h3 pt-2">{{ aqi_value | int }}</p>
+                                <small class="text-muted pb-2"><i style="font-size: small;"> {{time}}</i></small>
+                              </div>
+                            </div>
+                            {% endfor %}
+                            {% endif %}
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                                        
+                    </div>
+
+
+                  <!-- </div> -->
+                  <!-- <div class="collapse" id="tip">
+                    <div class="row justify-content-center mx-auto border border-primary mx-auto" style="border-radius: 15px 15px 15px 15px;">
+                      <h4 class="align-items-center">{{tips[1]}}</h4>
+                    </div>
+                  </div> -->
+                </ul>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+              </div>
+            </div>
+        </div>
+      </div>
+          
+ {% endblock %}
+
+ <!-- style="border-radius: 15px 15px 15px 15px;" -->
+ <!-- style="background: linear-gradient(140deg, rgba(76,169,223,1) 0%, rgba(161,255,179,1) 100%);" -->
+
+<!-- Add these modal structures at the end of your content block -->
+
+<!-- Repeat similar modal structures for other info divs -->

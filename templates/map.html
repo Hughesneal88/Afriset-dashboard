@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block title %}Map Page{% endblock %}
+
+{% block content %}
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <style>
+        #map {
+            height: 400px; /* Set a height for the map */
+            width: 100%; 
+            /* Set a width for the map */
+        }
+    </style>
+     <div id="map"></div>
+     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+     <script>
+         // Initialize the map
+         var map = L.map('map').setView([5.651664738078368, -0.1839496320843095], 10); // Centered on Accra, Ghana
+ 
+         // Add OpenStreetMap tiles
+         L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+             maxZoom: 19,
+             attribution: '© OpenStreetMap'
+         }).addTo(map);
+ 
+         // Add a marker for the sensor
+         var sensorLocation = [{{sensors[0].latitude}}, {{sensors[0].longitude}}]; // Example coordinates
+         var marker = L.marker(sensorLocation).addTo(map)
+             .bindPopup({{sensors[0].name}})
+             .openPopup();
+     </script>
+{% endblock %}

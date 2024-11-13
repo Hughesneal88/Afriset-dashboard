@@ -1,0 +1,1717 @@
+{
+  "meta": {
+    "name": "openaq-api",
+    "license": "",
+    "website": "/",
+    "page": 1,
+    "limit": 1000,
+    "found": 17
+  },
+  "results": [
+    {
+      "id": 9764,
+      "city": "Accra",
+      "name": "US Diplomatic Post: Accra",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 27738,
+          "average": -192.98050632911392,
+          "lastValue": 18,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2020-05-01T01:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.579447,
+        "longitude": -0.170699
+      },
+      "lastUpdated": "2024-04-24T11:00:00+00:00",
+      "firstUpdated": "2020-05-01T01:00:00+00:00",
+      "measurements": 27738,
+      "bounds": [
+        -0.170699,
+        5.579447,
+        -0.170699,
+        5.579447
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Government Monitor",
+          "manufacturerName": "Unknown Governmental Organization"
+        }
+      ]
+    },
+    {
+      "id": 1374750,
+      "city": null,
+      "name": "Built Environment UESD",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 2333,
+          "average": 27.379999923706055,
+          "lastValue": 36.22539679209391,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-08-03T02:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 98,
+          "unit": "%",
+          "count": 132,
+          "average": 62.07584110895793,
+          "lastValue": 33.5795628229777,
+          "parameter": "relativehumidity",
+          "displayName": "relativehumidity %",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 98,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 38,
+          "average": 18.796547730763752,
+          "lastValue": 16.677618980407715,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-03-09T13:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 125,
+          "unit": "particles/cm�",
+          "count": 132,
+          "average": 2980.082305908203,
+          "lastValue": 1264.0853068033855,
+          "parameter": "um003",
+          "displayName": "um003 particles/cm�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 125,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 2327,
+          "average": 4.95,
+          "lastValue": 5.808928648630778,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-08-03T02:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 82,
+          "average": 46.94989596207937,
+          "lastValue": 6.153174638748169,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 38,
+          "average": 11.944986820220947,
+          "lastValue": 10.3988889058431,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-03-09T13:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 82,
+          "average": 17.46518961787224,
+          "lastValue": 3.531746049722036,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.05246,
+        "longitude": -0.00783
+      },
+      "lastUpdated": "2024-04-24T11:00:00+00:00",
+      "firstUpdated": "2023-08-03T02:00:00+00:00",
+      "measurements": 5164,
+      "bounds": [
+        -0.00783,
+        6.05246,
+        -0.00783,
+        6.05246
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        },
+        {
+          "modelName": "N/A",
+          "manufacturerName": "OpenAQ admin"
+        }
+      ]
+    },
+    {
+      "id": 2453497,
+      "city": null,
+      "name": "Afri-SET",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 15,
+          "average": 27.244456807772316,
+          "lastValue": 19.409672498703003,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-08T08:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 1074,
+          "average": 29.847186175259676,
+          "lastValue": 8.88611110051473,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 1097,
+          "average": 36.81666668978605,
+          "lastValue": 37.72202396392822,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 759,
+          "average": 10.103028289477031,
+          "lastValue": 5.793849150339763,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 15,
+          "average": 17.276450872421265,
+          "lastValue": 12.843601306279501,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-08T08:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 98,
+          "unit": "%",
+          "count": 804,
+          "average": 96.60870615641277,
+          "lastValue": 36.83075459798177,
+          "parameter": "relativehumidity",
+          "displayName": "relativehumidity %",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 98,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 125,
+          "unit": "particles/cm�",
+          "count": 804,
+          "average": 6390.23922475179,
+          "lastValue": 1369.2222086588542,
+          "parameter": "um003",
+          "displayName": "um003 particles/cm�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 125,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 759,
+          "average": 15.710691972573597,
+          "lastValue": 9.305555621782938,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.653842319123899,
+        "longitude": -0.18587458123045222
+      },
+      "lastUpdated": "2024-04-24T11:00:00+00:00",
+      "firstUpdated": "2024-02-20T14:00:00+00:00",
+      "measurements": 5327,
+      "bounds": [
+        -0.18587458123045222,
+        5.653842319123899,
+        -0.18587458123045222,
+        5.653842319123899
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        }
+      ]
+    },
+    {
+      "id": 2453500,
+      "city": null,
+      "name": "Afri-SET",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 98,
+          "unit": "%",
+          "count": 805,
+          "average": 96.30832084019978,
+          "lastValue": 37.47023868560791,
+          "parameter": "relativehumidity",
+          "displayName": "relativehumidity %",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 98,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 770,
+          "average": 9.638244040807088,
+          "lastValue": 5.531349182128906,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 1097,
+          "average": 35.97678565979004,
+          "lastValue": 37.0589288075765,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 1097,
+          "average": 32.2413688659668,
+          "lastValue": 9.405555605888367,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 23,
+          "average": 16.845188432269627,
+          "lastValue": 12.163095156351725,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 23,
+          "average": 29.98323392868042,
+          "lastValue": 19.85491069157918,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 125,
+          "unit": "particles/cm�",
+          "count": 805,
+          "average": 2533.8968912760415,
+          "lastValue": 1386.0138854980469,
+          "parameter": "um003",
+          "displayName": "um003 particles/cm�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 125,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 772,
+          "average": 16.403400242328644,
+          "lastValue": 9.625595251719156,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.653842319123899,
+        "longitude": -0.18587458123045222
+      },
+      "lastUpdated": "2024-04-24T11:00:00+00:00",
+      "firstUpdated": "2024-02-20T14:00:00+00:00",
+      "measurements": 5392,
+      "bounds": [
+        -0.18587458123045222,
+        5.653842319123899,
+        -0.18587458123045222,
+        5.653842319123899
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        }
+      ]
+    },
+    {
+      "id": 2453501,
+      "city": null,
+      "name": "Afri-SET",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 772,
+          "average": 13.133958327770234,
+          "lastValue": 7.630754113197327,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 1097,
+          "average": 36.591666793823244,
+          "lastValue": 38.1730162302653,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 1097,
+          "average": 27.67172622680664,
+          "lastValue": 7.42123011747996,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2024-02-20T14:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 98,
+          "unit": "%",
+          "count": 805,
+          "average": 94.16661389668783,
+          "lastValue": 34.305952072143555,
+          "parameter": "relativehumidity",
+          "displayName": "relativehumidity %",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 98,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 125,
+          "unit": "particles/cm�",
+          "count": 805,
+          "average": 1927.896588643392,
+          "lastValue": 1074.5535685221355,
+          "parameter": "um003",
+          "displayName": "um003 particles/cm�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 125,
+          "firstUpdated": "2024-03-07T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 23,
+          "average": 24.514881028069393,
+          "lastValue": 16.2894344329834,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 772,
+          "average": 7.885439020395278,
+          "lastValue": 4.468055526415507,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-04-24T11:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-06T17:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 23,
+          "average": 14.157837311426798,
+          "lastValue": 10.11116075515747,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2024-03-09T19:00:00+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2024-03-08T00:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.653842319123899,
+        "longitude": -0.18587458123045222
+      },
+      "lastUpdated": "2024-04-24T11:00:00+00:00",
+      "firstUpdated": "2024-02-20T14:00:00+00:00",
+      "measurements": 5394,
+      "bounds": [
+        -0.18587458123045222,
+        5.653842319123899,
+        -0.18587458123045222,
+        5.653842319123899
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        }
+      ]
+    },
+    {
+      "id": 1471855,
+      "city": null,
+      "name": "Built Environment UESD",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 1510,
+          "average": 10.237499952316284,
+          "lastValue": 44.339567011052914,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-02-12T12:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-08-23T12:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 1510,
+          "average": 29.018750429153442,
+          "lastValue": 32.052553697065875,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-02-12T12:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-08-23T12:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.051,
+        "longitude": -0.007
+      },
+      "lastUpdated": "2024-02-12T12:00:00+00:00",
+      "firstUpdated": "2023-08-23T12:00:00+00:00",
+      "measurements": 3020,
+      "bounds": [
+        -0.007,
+        6.051,
+        -0.007,
+        6.051
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        }
+      ]
+    },
+    {
+      "id": 1236045,
+      "city": null,
+      "name": "Physics Department-UG-Accra/CAOA-UESD",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 3484,
+          "average": 15.715773820877075,
+          "lastValue": 299.32142639160156,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2024-01-09T15:00:00+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-07-15T13:00:00+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 3800,
+          "average": 34.47766399383545,
+          "lastValue": 34.80130958557129,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2024-01-24T11:00:00+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-07-15T13:00:00+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.651,
+        "longitude": -0.186
+      },
+      "lastUpdated": "2024-01-24T11:00:00+00:00",
+      "firstUpdated": "2023-07-15T13:00:00+00:00",
+      "measurements": 7284,
+      "bounds": [
+        -0.186,
+        5.651,
+        -0.186,
+        5.651
+      ],
+      "manufacturers": [
+        {
+          "modelName": "AirGradient Sensor",
+          "manufacturerName": "AirGradient"
+        }
+      ]
+    },
+    {
+      "id": 367215,
+      "city": null,
+      "name": "ARJWQ6WV",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 74053,
+          "average": 35.47842240295127,
+          "lastValue": 10,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-01T20:05:48.805+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-10-20T00:02:16.826+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 72012,
+          "average": 17.023384587664346,
+          "lastValue": 7.86,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-15T23:05:19.797+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-10-20T00:02:16.826+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 64993,
+          "average": 0.010735014923944542,
+          "lastValue": 0.01636,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-01T07:03:33.308+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2022-10-20T00:02:16.826+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 75297,
+          "average": 18.891654280478576,
+          "lastValue": 7.04,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-15T23:05:19.797+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2022-10-20T00:02:16.826+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.651068809036082,
+        "longitude": -0.18585528584023492
+      },
+      "lastUpdated": "2023-09-15T23:05:19+00:00",
+      "firstUpdated": "2022-10-20T00:02:16+00:00",
+      "measurements": 286355,
+      "bounds": [
+        -0.18585528584023492,
+        5.651068809036082,
+        -0.18585528584023492,
+        5.651068809036082
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 947129,
+      "city": null,
+      "name": "ARJWQ6WV",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 128,
+          "unit": "f",
+          "count": 11825,
+          "average": 30.109131944444442,
+          "lastValue": 26.47,
+          "parameter": "temperature",
+          "displayName": "temperature f",
+          "lastUpdated": "2023-09-01T07:03:33.308+00:00",
+          "parameterId": 128,
+          "firstUpdated": "2023-05-23T17:54:03.254+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 21277,
+          "average": 0.011486805395074701,
+          "lastValue": 0.01943,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-15T23:05:19.797+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2023-05-24T17:29:12.718+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 12175,
+          "average": 18.87611915572853,
+          "lastValue": 16.35,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-15T23:05:19.797+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2023-05-24T17:29:12.718+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 22508,
+          "average": 28.50113674693363,
+          "lastValue": 25.73,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-09-15T23:05:19.797+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-06-12T18:56:12.254+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 14259,
+          "average": 12.845070238993037,
+          "lastValue": 5.4,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-01T00:03:44.044+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-05-24T17:29:12.718+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 10940,
+          "average": 11.883295070495544,
+          "lastValue": 6.81,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-08-20T01:06:52.376+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2023-05-24T17:29:12.718+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.651068809036082,
+        "longitude": -0.18585528584023492
+      },
+      "lastUpdated": "2023-09-15T23:05:19+00:00",
+      "firstUpdated": "2023-05-23T17:54:03+00:00",
+      "measurements": 92984,
+      "bounds": [
+        -0.18585528584023492,
+        5.651068809036082,
+        -0.18585528584023492,
+        5.651068809036082
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 367217,
+      "city": null,
+      "name": "AWJQ4MVT",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 34976,
+          "average": 399.4734297450498,
+          "lastValue": 0.19,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2022-10-20T00:03:41.749+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 34068,
+          "average": 160.49104043099217,
+          "lastValue": 2.7,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-10-20T00:03:41.749+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 34218,
+          "average": 0.013483564055352013,
+          "lastValue": 0.01311,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2022-10-20T00:03:41.749+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 35716,
+          "average": 415.2947803456477,
+          "lastValue": 5.38,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-10-20T00:03:41.749+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7133333,
+        "longitude": -1.5286111111111111
+      },
+      "lastUpdated": "2023-09-15T23:02:20+00:00",
+      "firstUpdated": "2022-10-20T00:03:41+00:00",
+      "measurements": 138978,
+      "bounds": [
+        -1.5286111111111111,
+        6.7133333,
+        -1.5286111111111111,
+        6.7133333
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 947131,
+      "city": null,
+      "name": "AWJQ4MVT",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 6941,
+          "average": 11.897639927618345,
+          "lastValue": 6.02,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-08-29T13:58:25.843+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 6030,
+          "average": 3.4681888530806804,
+          "lastValue": 0,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-01T20:07:02.23+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 5301,
+          "average": 10.073084061237909,
+          "lastValue": 9.31,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-01T06:49:13.336+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 2862,
+          "average": 25.187142857142856,
+          "lastValue": 23.69,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-08-29T07:55:43.9+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-06-17T03:54:26.769+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 6809,
+          "average": 0.014129259833016775,
+          "lastValue": 0.01752,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-01T21:01:26.156+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 98,
+          "unit": "%",
+          "count": 14500,
+          "average": 80.28849489795921,
+          "lastValue": 88.98,
+          "parameter": "relativehumidity",
+          "displayName": "relativehumidity %",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 98,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 128,
+          "unit": "f",
+          "count": 7697,
+          "average": 26.21972164902999,
+          "lastValue": 23.45,
+          "parameter": "temperature",
+          "displayName": "temperature f",
+          "lastUpdated": "2023-09-02T03:04:36.429+00:00",
+          "parameterId": 128,
+          "firstUpdated": "2023-05-23T17:55:16.973+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 4028,
+          "average": 26.981617063492067,
+          "lastValue": 25.19,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-09-15T23:02:20.207+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-05-23T19:14:53.62+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7133333,
+        "longitude": -1.5286111111111111
+      },
+      "lastUpdated": "2023-09-15T23:02:20+00:00",
+      "firstUpdated": "2023-05-23T17:55:16+00:00",
+      "measurements": 54168,
+      "bounds": [
+        -1.5286111111111111,
+        6.7133333,
+        -1.5286111111111111,
+        6.7133333
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 947145,
+      "city": null,
+      "name": "ANHLHLNJ",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 128,
+          "unit": "f",
+          "count": 14150,
+          "average": 27.1280962962963,
+          "lastValue": 25.23,
+          "parameter": "temperature",
+          "displayName": "temperature f",
+          "lastUpdated": "2023-09-15T23:02:01.452+00:00",
+          "parameterId": 128,
+          "firstUpdated": "2023-05-23T17:55:26.74+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 7948,
+          "average": 41.67797255154976,
+          "lastValue": 23.48,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-04T01:04:12.738+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2023-05-24T17:32:13.009+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 7864,
+          "average": 0.012531905345777592,
+          "lastValue": 0.00764,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-01T10:05:21.792+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2023-05-24T17:32:13.009+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 6337,
+          "average": 27.218042957544455,
+          "lastValue": 24.71,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-08-16T01:02:17.283+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-06-12T18:58:44.564+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 10098,
+          "average": 15.919630536130537,
+          "lastValue": 28.43,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-01T16:02:04.093+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-05-24T17:32:13.009+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 17221,
+          "average": 21.75967024132552,
+          "lastValue": 9.77,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:01.452+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2023-05-24T17:32:13.009+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.651068809036082,
+        "longitude": -0.18585528584023492
+      },
+      "lastUpdated": "2023-09-15T23:02:01+00:00",
+      "firstUpdated": "2023-05-23T17:55:26+00:00",
+      "measurements": 63618,
+      "bounds": [
+        -0.18585528584023492,
+        5.651068809036082,
+        -0.18585528584023492,
+        5.651068809036082
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 367216,
+      "city": null,
+      "name": "ANHLHLNJ",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 39935,
+          "average": 28.786172461328075,
+          "lastValue": 5,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-01T23:06:12.553+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2022-10-20T00:01:31.135+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 49289,
+          "average": 0.011911916206931368,
+          "lastValue": 0.01787,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-15T23:02:01.452+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2022-10-20T00:01:31.135+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 47069,
+          "average": 23.720692903508745,
+          "lastValue": 7.55,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:01.452+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-10-20T00:01:31.135+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 49237,
+          "average": 56.32603832816118,
+          "lastValue": 18.85,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-15T23:02:01.452+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-10-20T00:01:31.135+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 5.651068809036082,
+        "longitude": -0.18585528584023492
+      },
+      "lastUpdated": "2023-09-15T23:02:01+00:00",
+      "firstUpdated": "2022-10-20T00:01:31+00:00",
+      "measurements": 185530,
+      "bounds": [
+        -0.18585528584023492,
+        5.651068809036082,
+        -0.18585528584023492,
+        5.651068809036082
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 367218,
+      "city": null,
+      "name": "A7RWN47G",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 41842,
+          "average": 0.0027363659990704225,
+          "lastValue": 0.017839999999999998,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-01T07:04:01.622+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2022-10-20T00:00:09.062+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 48570,
+          "average": 71.77683316928687,
+          "lastValue": 17.02,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-15T23:01:37.862+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-10-20T00:00:09.062+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 47801,
+          "average": 40.358533598607735,
+          "lastValue": 9.78,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-15T23:01:37.862+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2022-10-20T00:00:09.062+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 45201,
+          "average": 28.084312699772397,
+          "lastValue": 6.9,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-15T23:01:37.862+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-10-20T00:00:09.062+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7541667,
+        "longitude": -1.771388888888889
+      },
+      "lastUpdated": "2023-09-15T23:01:37+00:00",
+      "firstUpdated": "2022-10-20T00:00:09+00:00",
+      "measurements": 183414,
+      "bounds": [
+        -1.771388888888889,
+        6.7541667,
+        -1.771388888888889,
+        6.7541667
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 947135,
+      "city": null,
+      "name": "A7RWN47G",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 13997,
+          "average": 0.012650814814814816,
+          "lastValue": 0.02339,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-15T23:01:37.862+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2023-05-26T14:52:57.212+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 11844,
+          "average": 27.483649615575388,
+          "lastValue": 25.66,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-09-15T23:01:37.862+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-06-12T21:58:33.435+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 10637,
+          "average": 24.24483440709617,
+          "lastValue": 4.46,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-01T23:00:30.201+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-05-26T14:52:57.212+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 7260,
+          "average": 61.78077777777778,
+          "lastValue": 5.58,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-03T01:03:44.76+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2023-05-26T14:52:57.212+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 128,
+          "unit": "f",
+          "count": 10563,
+          "average": 28.091869444444445,
+          "lastValue": 33.64,
+          "parameter": "temperature",
+          "displayName": "temperature f",
+          "lastUpdated": "2023-09-01T14:01:11.295+00:00",
+          "parameterId": 128,
+          "firstUpdated": "2023-05-23T17:55:27.741+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 8021,
+          "average": 37.51844444444445,
+          "lastValue": 21,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-08-29T05:04:11.602+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2023-05-26T14:52:57.212+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7541667,
+        "longitude": -1.771388888888889
+      },
+      "lastUpdated": "2023-09-15T23:01:37+00:00",
+      "firstUpdated": "2023-05-23T17:55:27+00:00",
+      "measurements": 62322,
+      "bounds": [
+        -1.771388888888889,
+        6.7541667,
+        -1.771388888888889,
+        6.7541667
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 1008918,
+      "city": null,
+      "name": "AM9CQFVL",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 2845,
+          "average": -0.7755893749999999,
+          "lastValue": -3.39091,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-02T02:21:39.272+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2023-06-30T18:07:21.243+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 2117,
+          "average": 15.289374999999998,
+          "lastValue": 32,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-02T02:35:16.156+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2023-06-30T18:07:21.243+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 1730,
+          "average": 12.783333333333333,
+          "lastValue": 25,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-02T02:35:16.156+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2023-07-01T16:39:49.428+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 128,
+          "unit": "f",
+          "count": 1781,
+          "average": 31.08,
+          "lastValue": 25.34,
+          "parameter": "temperature",
+          "displayName": "temperature f",
+          "lastUpdated": "2023-08-13T09:20:47.199+00:00",
+          "parameterId": 128,
+          "firstUpdated": "2023-06-30T18:07:21.243+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 1456,
+          "average": 8.215625,
+          "lastValue": 2.89,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-01T21:59:33.099+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2023-06-30T18:07:21.243+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 100,
+          "unit": "c",
+          "count": 3585,
+          "average": 32.92466666666667,
+          "lastValue": 25.13,
+          "parameter": "temperature",
+          "displayName": "temperature c",
+          "lastUpdated": "2023-09-15T06:47:42.615+00:00",
+          "parameterId": 100,
+          "firstUpdated": "2023-07-05T17:10:20.459+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7569444,
+        "longitude": -1.7641666666666667
+      },
+      "lastUpdated": "2023-09-15T06:47:42+00:00",
+      "firstUpdated": "2023-06-30T18:07:21+00:00",
+      "measurements": 13514,
+      "bounds": [
+        -1.7641666666666667,
+        6.7569444,
+        -1.7641666666666667,
+        6.7569444
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    },
+    {
+      "id": 367219,
+      "city": null,
+      "name": "AM9CQFVL",
+      "entity": null,
+      "country": "GH",
+      "sources": null,
+      "isMobile": false,
+      "isAnalysis": null,
+      "parameters": [
+        {
+          "id": 1,
+          "unit": "�g/m�",
+          "count": 14120,
+          "average": 9.898438193874375,
+          "lastValue": 15.45,
+          "parameter": "pm10",
+          "displayName": "pm10 �g/m�",
+          "lastUpdated": "2023-09-15T06:47:42.615+00:00",
+          "parameterId": 1,
+          "firstUpdated": "2022-10-20T00:00:59.852+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 2,
+          "unit": "�g/m�",
+          "count": 14782,
+          "average": 5.8029547920002775,
+          "lastValue": 6.74,
+          "parameter": "pm25",
+          "displayName": "pm25 �g/m�",
+          "lastUpdated": "2023-09-15T06:47:42.615+00:00",
+          "parameterId": 2,
+          "firstUpdated": "2022-10-20T00:00:59.852+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 7,
+          "unit": "ppm",
+          "count": 13382,
+          "average": 0.0010581427666854087,
+          "lastValue": -0.85038,
+          "parameter": "no2",
+          "displayName": "no2 ppm",
+          "lastUpdated": "2023-09-15T06:47:42.615+00:00",
+          "parameterId": 7,
+          "firstUpdated": "2022-10-20T00:00:59.852+00:00",
+          "manufacturers": null
+        },
+        {
+          "id": 19,
+          "unit": "�g/m�",
+          "count": 14516,
+          "average": 3.712126258274863,
+          "lastValue": 11.27,
+          "parameter": "pm1",
+          "displayName": "pm1 �g/m�",
+          "lastUpdated": "2023-09-15T06:47:42.615+00:00",
+          "parameterId": 19,
+          "firstUpdated": "2022-10-20T00:00:59.852+00:00",
+          "manufacturers": null
+        }
+      ],
+      "sensorType": null,
+      "coordinates": {
+        "latitude": 6.7569444,
+        "longitude": -1.7641666666666667
+      },
+      "lastUpdated": "2023-09-15T06:47:42+00:00",
+      "firstUpdated": "2022-10-20T00:00:59+00:00",
+      "measurements": 56800,
+      "bounds": [
+        -1.7641666666666667,
+        6.7569444,
+        -1.7641666666666667,
+        6.7569444
+      ],
+      "manufacturers": [
+        {
+          "modelName": "Clarity Sensor",
+          "manufacturerName": "Clarity"
+        }
+      ]
+    }
+  ]
+}

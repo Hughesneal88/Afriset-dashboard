@@ -1,0 +1,18 @@
+
+{% extends "base.html" %}
+{% block content %}
+<form method="POST">
+    <select name="sensor_id" class="form-select" aria-label="Default select example">
+        <option selected value="867">867</option>
+        <option value="868">868</option>
+        <option value="869">869</option>
+      </select>
+    <label for="start">Start:</label>
+    <input type="datetime-local"  max={{end_lim}} name="start" value="{{start_lim}}" required/>
+    <label for="end">End:</label>
+    <input type="datetime-local" max={{end_lim}} name="end" value="{{end_lim}}" required/>
+    <button type="submit">Download</button>
+</form>
+
+  
+{% endblock %}
