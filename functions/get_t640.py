@@ -5,6 +5,7 @@ import datetime
 import pickle
 import pandas as pd
 import joblib
+import tensorflow as tf
 
 # start = datetime.datetime.now()-datetime.timedelta(minutes=1)
 # end = datetime.datetime.now()
@@ -127,6 +128,33 @@ def forecast_next_hours(model, last_data, hours=5):
 
     return predictions
 
+def forecast_next_hours_rnn(model, last_data, hours=5):
+    predictions = []
+    current_data = last_data.copy()
+
+    for _ in range(hours):
+        # Prepare the input data for the RNN model
+        input_data = current_data.values.reshape((1, 1, current_data.shape[1]))
+        
+        # Make prediction
+        pred = model.predict(input_data)
+        predictions.append(pred[0][0])  # Store the prediction
+        
+        # Prepare the next input data
+        new_row = {
+            'Hour': (current_data['Hour'].values[0] + 1) % 24,  # Increment hour
+            'Day': current_data['Day'].values[0],
+            'PM25_lag1': pred[0][0],  # Use the predicted PM2.5 as lagged feature
+            'RH_lag1': current_data['RH_lag1'].values[0],
+            'Temp_lag1': current_data['Temp_lag1'].values[0],
+            'WD_lag1': current_data['WD_lag1'].values[0],
+            'WS_lag1': current_data['WS_lag1'].values[0],
+            'Season': current_data['Season'].values[0],
+        }
+        current_data = pd.DataFrame([new_row])  # Update current data for the next prediction
+
+    return predictions
+
 def calculate_aqi(pm25):
     if pm25 < 0:
         return None  # Invalid PM2.5 value
@@ -165,7 +193,7 @@ def get_forecast_df():
             
 
 def forecast(df):
-    model = joblib.load('models/regression_model.joblib')
+    model = tf.keras.models.load_model('models/rnn_model.h5')
     FEATURES = ['Hour', 'Day', 'PM25_lag1', 'RH_lag1', 'Temp_lag1', 'WD_lag1', 'WS_lag1','Season'] 
     TARGET = 'PM25'
 
@@ -173,16 +201,13 @@ def forecast(df):
     df = df[FEATURES]
     
     # Get the current time and filter the last 5 hours of data
-    # if df.empty:
-    #     print("DataFrame is empty. Cannot calculate forecast.")
-    #     return None  # Handle this case as needed
     current_time = df.index[-1]  # Get the last timestamp from the dataframe
     last_data = df[(df.index >= current_time)]  # Filter for the last 5 hours
     print(last_data)
 
     # Generate forecast times starting from the next hour
     forecast_times = [current_time + pd.Timedelta(hours=i+1) for i in range(1, 6)]  # Next 5 hours excluding current hour
-    predictions = forecast_next_hours(model, last_data)
+    predictions = forecast_next_hours_rnn(model, last_data)
     forecast_df = pd.DataFrame({
         'Datetime': forecast_times,
         'PM25': predictions,
@@ -192,7 +217,6 @@ def forecast(df):
     # Set the Datetime as the index (optional)
     forecast_df.set_index('Datetime', inplace=True)
     forecast_df.index = forecast_df.index.strftime('%I:%M %p')
-
 
     return forecast_df
 

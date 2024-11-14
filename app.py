@@ -9,7 +9,7 @@ from flask import Flask, render_template, send_file, url_for, request, redirect,
 from flask_mail import Mail, Message 
 from functions.get_city import get_city_details, get_device_rec
 from functions.get_t640 import get_T640, get_forecast_df, ip_info
-from functions.RNNmodel import forecast_with_rnn, is_model_trained, train_model
+from functions.RNNmodel import forecast_with_rnn, train_loss
 from io import BytesIO, StringIO
 # from werkzeug.middleware.proxy_fix import ProxyFix
 from functions.graph_plot import create_and_resample_t640_met_pickle, daily_T640, hourly_T640, save_data_to_csv, get_plot_data, process_data, create_air_quality_weather_plot, return_df, calendar_heatmap
@@ -256,13 +256,16 @@ def update_forecast():
             continue
         
         try:
-            if not is_model_trained():
-                print("RNN model is not trained yet. Training the model.")
-                train_model()  # Train the model if it is not trained
+            # Skip model training for now
+            print("Using the existing RNN model for forecasting.")
             
             forecast_values = forecast_with_rnn(df)  # Calculate the forecast using the RNN
             predicted_value = forecast_values['PM25'].iloc[-1]  # Get the last predicted value
             predictions_buffer.append(predicted_value)  # Store the prediction
+            
+            # Keep only the last 5 hours of predictions
+            if len(predictions_buffer) > 5:
+                predictions_buffer.pop(0)
             
             # Optionally, save the forecast values
             save_forecast(forecast_values)
